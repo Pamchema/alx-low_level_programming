@@ -11,9 +11,7 @@ int main(void)
 	for (i = 97; i <= 122; i++)
 	{
 		putchar(i);
-		if (i == 122)
-			printf(" ");
-
+		putchar('\n');
 	}
 	return (0);
 }
